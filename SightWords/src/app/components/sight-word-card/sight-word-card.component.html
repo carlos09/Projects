@@ -1,0 +1,13 @@
+@if (currentWord) {
+<div class="card-container">
+  <div class="flash-card">
+    {{ currentWord?.word }}
+  </div>
+
+  <div class="controls">
+    <button (click)="previousCard()">Previous</button>
+
+    <button (click)="nextCard()">Next</button>
+  </div>
+</div>
+}
