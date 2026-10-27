@@ -2,21 +2,825 @@
   {
     "id": 1,
     "word": "the",
-    "level": "kindergarten"
+    "grade": "kindergarten",
+    "trimester": 1,
+    "category": "core",
+    "order": 1
   },
   {
     "id": 2,
-    "word": "and",
-    "level": "kindergarten"
+    "word": "I",
+    "grade": "kindergarten",
+    "trimester": 1,
+    "category": "core",
+    "order": 2
   },
   {
     "id": 3,
-    "word": "said",
-    "level": "1st-grade"
+    "word": "at",
+    "grade": "kindergarten",
+    "trimester": 1,
+    "category": "core",
+    "order": 3
   },
   {
     "id": 4,
+    "word": "and",
+    "grade": "kindergarten",
+    "trimester": 1,
+    "category": "core",
+    "order": 4
+  },
+  {
+    "id": 5,
+    "word": "a",
+    "grade": "kindergarten",
+    "trimester": 1,
+    "category": "core",
+    "order": 5
+  },
+  {
+    "id": 6,
+    "word": "if",
+    "grade": "kindergarten",
+    "trimester": 1,
+    "category": "core",
+    "order": 6
+  },
+  {
+    "id": 7,
+    "word": "it",
+    "grade": "kindergarten",
+    "trimester": 1,
+    "category": "core",
+    "order": 7
+  },
+  {
+    "id": 8,
+    "word": "its",
+    "grade": "kindergarten",
+    "trimester": 1,
+    "category": "core",
+    "order": 8
+  },
+  {
+    "id": 9,
+    "word": "is",
+    "grade": "kindergarten",
+    "trimester": 1,
+    "category": "core",
+    "order": 9
+  },
+  {
+    "id": 10,
+    "word": "in",
+    "grade": "kindergarten",
+    "trimester": 1,
+    "category": "core",
+    "order": 10
+  },
+  {
+    "id": 11,
+    "word": "as",
+    "grade": "kindergarten",
+    "trimester": 1,
+    "category": "core",
+    "order": 11
+  },
+  {
+    "id": 12,
+    "word": "an",
+    "grade": "kindergarten",
+    "trimester": 1,
+    "category": "core",
+    "order": 12
+  },
+  {
+    "id": 13,
+    "word": "not",
+    "grade": "kindergarten",
+    "trimester": 1,
+    "category": "core",
+    "order": 13
+  },
+  {
+    "id": 14,
+    "word": "on",
+    "grade": "kindergarten",
+    "trimester": 1,
+    "category": "core",
+    "order": 14
+  },
+  {
+    "id": 15,
+    "word": "said",
+    "grade": "kindergarten",
+    "trimester": 1,
+    "category": "core",
+    "order": 15
+  },
+  {
+    "id": 16,
+    "word": "did",
+    "grade": "kindergarten",
+    "trimester": 1,
+    "category": "core",
+    "order": 16
+  },
+  {
+    "id": 17,
+    "word": "can",
+    "grade": "kindergarten",
+    "trimester": 1,
+    "category": "core",
+    "order": 17
+  },
+  {
+    "id": 18,
+    "word": "to",
+    "grade": "kindergarten",
+    "trimester": 1,
+    "category": "core",
+    "order": 18
+  },
+  {
+    "id": 19,
+    "word": "do",
+    "grade": "kindergarten",
+    "trimester": 1,
+    "category": "core",
+    "order": 19
+  },
+  {
+    "id": 20,
+    "word": "up",
+    "grade": "kindergarten",
+    "trimester": 1,
+    "category": "core",
+    "order": 20
+  },
+  {
+    "id": 21,
+    "word": "of",
+    "grade": "kindergarten",
+    "trimester": 1,
+    "category": "core",
+    "order": 21
+  },
+  {
+    "id": 22,
+    "word": "but",
+    "grade": "kindergarten",
+    "trimester": 1,
+    "category": "core",
+    "order": 22
+  },
+  {
+    "id": 23,
+    "word": "get",
+    "grade": "kindergarten",
+    "trimester": 1,
+    "category": "core",
+    "order": 23
+  },
+  {
+    "id": 24,
+    "word": "see",
+    "grade": "kindergarten",
+    "trimester": 1,
+    "category": "core",
+    "order": 24
+  },
+  {
+    "id": 25,
+    "word": "us",
+    "grade": "kindergarten",
+    "trimester": 1,
+    "category": "bonus-kindergarten",
+    "order": 25
+  },
+  {
+    "id": 26,
+    "word": "he",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 1
+  },
+  {
+    "id": 27,
+    "word": "be",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 2
+  },
+  {
+    "id": 28,
+    "word": "me",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 3
+  },
+  {
+    "id": 29,
+    "word": "had",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 4
+  },
+  {
+    "id": 30,
+    "word": "has",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 5
+  },
+  {
+    "id": 31,
+    "word": "him",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 6
+  },
+  {
+    "id": 32,
+    "word": "his",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 7
+  },
+  {
+    "id": 33,
+    "word": "from",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 8
+  },
+  {
+    "id": 34,
+    "word": "look",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 9
+  },
+  {
+    "id": 35,
+    "word": "are",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 10
+  },
+  {
+    "id": 36,
+    "word": "help",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 11
+  },
+  {
+    "id": 37,
+    "word": "went",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 12
+  },
+  {
+    "id": 38,
+    "word": "was",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 13
+  },
+  {
+    "id": 39,
+    "word": "just",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 14
+  },
+  {
+    "id": 40,
+    "word": "you",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 15
+  },
+  {
+    "id": 41,
+    "word": "what",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 16
+  },
+  {
+    "id": 42,
+    "word": "have",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 17
+  },
+  {
+    "id": 43,
+    "word": "your",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 18
+  },
+  {
+    "id": 44,
+    "word": "want",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 19
+  },
+  {
+    "id": 45,
+    "word": "will",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 20
+  },
+  {
+    "id": 46,
+    "word": "go",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 21
+  },
+  {
+    "id": 47,
+    "word": "no",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 22
+  },
+  {
+    "id": 48,
+    "word": "so",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 23
+  },
+  {
+    "id": 49,
+    "word": "all",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 24
+  },
+  {
+    "id": 50,
+    "word": "back",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 25
+  },
+  {
+    "id": 51,
+    "word": "she",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 26
+  },
+  {
+    "id": 52,
+    "word": "we",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 27
+  },
+  {
+    "id": 53,
+    "word": "they",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 28
+  },
+  {
+    "id": 54,
+    "word": "their",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 29
+  },
+  {
+    "id": 55,
+    "word": "than",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 30
+  },
+  {
+    "id": 56,
+    "word": "that",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 31
+  },
+  {
+    "id": 57,
+    "word": "them",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 32
+  },
+  {
+    "id": 58,
+    "word": "then",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 33
+  },
+  {
+    "id": 59,
+    "word": "this",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "core",
+    "order": 34
+  },
+  {
+    "id": 60,
+    "word": "me",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "bonus-kindergarten",
+    "order": 35
+  },
+  {
+    "id": 61,
+    "word": "look",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "bonus-kindergarten",
+    "order": 36
+  },
+  {
+    "id": 62,
+    "word": "help",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "bonus-kindergarten",
+    "order": 37
+  },
+  {
+    "id": 63,
+    "word": "went",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "bonus-kindergarten",
+    "order": 38
+  },
+  {
+    "id": 64,
+    "word": "want",
+    "grade": "kindergarten",
+    "trimester": 2,
+    "category": "bonus-kindergarten",
+    "order": 39
+  },
+  {
+    "id": 65,
+    "word": "were",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "core",
+    "order": 1
+  },
+  {
+    "id": 66,
+    "word": "with",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "core",
+    "order": 2
+  },
+  {
+    "id": 67,
+    "word": "much",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "core",
+    "order": 3
+  },
+  {
+    "id": 68,
+    "word": "could",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "core",
+    "order": 4
+  },
+  {
+    "id": 69,
+    "word": "would",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "core",
+    "order": 5
+  },
+  {
+    "id": 70,
+    "word": "when",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "core",
+    "order": 6
+  },
+  {
+    "id": 71,
+    "word": "which",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "core",
+    "order": 7
+  },
+  {
+    "id": 72,
+    "word": "or",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "core",
+    "order": 8
+  },
+  {
+    "id": 73,
+    "word": "for",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "core",
+    "order": 9
+  },
+  {
+    "id": 74,
+    "word": "long",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "core",
+    "order": 10
+  },
+  {
+    "id": 75,
+    "word": "there",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "core",
+    "order": 11
+  },
+  {
+    "id": 76,
+    "word": "where",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "core",
+    "order": 12
+  },
+  {
+    "id": 77,
+    "word": "who",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "core",
+    "order": 13
+  },
+  {
+    "id": 78,
+    "word": "made",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "core",
+    "order": 14
+  },
+  {
+    "id": 79,
+    "word": "make",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "core",
+    "order": 15
+  },
+  {
+    "id": 80,
+    "word": "by",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "core",
+    "order": 16
+  },
+  {
+    "id": 81,
+    "word": "my",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "core",
+    "order": 17
+  },
+  {
+    "id": 82,
+    "word": "like",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "core",
+    "order": 18
+  },
+  {
+    "id": 83,
+    "word": "time",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "core",
+    "order": 19
+  },
+  {
+    "id": 84,
+    "word": "these",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "core",
+    "order": 20
+  },
+  {
+    "id": 85,
+    "word": "one",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "core",
+    "order": 21
+  },
+  {
+    "id": 86,
+    "word": "use",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "core",
+    "order": 22
+  },
+  {
+    "id": 87,
+    "word": "some",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "core",
+    "order": 23
+  },
+  {
+    "id": 88,
+    "word": "two",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "core",
+    "order": 24
+  },
+  {
+    "id": 89,
+    "word": "many",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "core",
+    "order": 25
+  },
+  {
+    "id": 90,
+    "word": "been",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "core",
+    "order": 26
+  },
+  {
+    "id": 91,
+    "word": "into",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "core",
+    "order": 27
+  },
+  {
+    "id": 92,
+    "word": "here",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "bonus-kindergarten",
+    "order": 28
+  },
+  {
+    "id": 93,
+    "word": "come",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "bonus-kindergarten",
+    "order": 29
+  },
+  {
+    "id": 94,
+    "word": "love",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "bonus-kindergarten",
+    "order": 30
+  },
+  {
+    "id": 95,
+    "word": "does",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "bonus-kindergarten",
+    "order": 31
+  },
+  {
+    "id": 96,
+    "word": "friend",
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "bonus-kindergarten",
+    "order": 32
+  },
+  {
+    "id": 97,
     "word": "because",
-    "level": "2nd-grade"
+    "grade": "kindergarten",
+    "trimester": 3,
+    "category": "bonus-kindergarten",
+    "order": 33
+  },
+  {
+    "id": 98,
+    "word": "little",
+    "grade": "first-grade",
+    "trimester": 2,
+    "category": "bonus-first-grade",
+    "order": 1
+  },
+  {
+    "id": 99,
+    "word": "over",
+    "grade": "first-grade",
+    "trimester": 2,
+    "category": "bonus-first-grade",
+    "order": 2
+  },
+  {
+    "id": 100,
+    "word": "good",
+    "grade": "first-grade",
+    "trimester": 3,
+    "category": "bonus-first-grade",
+    "order": 1
+  },
+  {
+    "id": 101,
+    "word": "down",
+    "grade": "first-grade",
+    "trimester": 3,
+    "category": "bonus-first-grade",
+    "order": 2
+  },
+  {
+    "id": 102,
+    "word": "how",
+    "grade": "first-grade",
+    "trimester": 3,
+    "category": "bonus-first-grade",
+    "order": 3
+  },
+  {
+    "id": 103,
+    "word": "out",
+    "grade": "first-grade",
+    "trimester": 3,
+    "category": "bonus-first-grade",
+    "order": 4
   }
 ]

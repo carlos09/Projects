@@ -1,0 +1,101 @@
+.card-container {
+  padding: 20px 120px;
+}
+
+.record-button {
+  width: 140px;
+  height: 140px;
+}
+
+.record-icon {
+  font-size: 64px;
+  width: 64px;
+  height: 64px;
+}
+
+.recording-overlay {
+  position: fixed;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.6);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 9999;
+  animation: fadeIn 0.2s ease;
+}
+
+.recording-overlay img {
+  width: 220px;
+  height: 220px;
+
+  object-fit: contain;
+}
+
+.recording-overlay img {
+  animation: pulse 1.2s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.thinking {
+  font-size: 24px;
+  color: white;
+}
+
+.trimester-button {
+  padding: 10px 16px;
+  border-radius: 12px;
+  font-weight: 600;
+  border: 1px solid #d4d4d8;
+  background: white;
+  transition: all 0.2s ease;
+}
+
+.trimester-button:hover {
+  transform: translateY(-1px);
+}
+
+.trimester-button.active {
+  background: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
+
+h1.sw-text {
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.08);
+}
+
+.hear-btn-wrap {
+  min-height: 56px; // prevents layout shift when swapping button ↔ gif
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.listen-thumbsup-wrap {
+  position: relative;
+  width: 340px;
+  height: 200px;
+}
+
+.choice-thumbsup-wrap {
+  position: relative;
+  width: 100%;
+  height: 120px; // matches the small card height
+  border-radius: 24px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.55);
+}

@@ -1,30 +1,24 @@
-@if (isProcessingSpeech) {
-<p>🧠 Listening...</p>
-}
-
-<div class="flash-card">
-  {{ currentWord?.word }}
-</div>
-
-<button
-  (mousedown)="startRecording()"
-  (mouseup)="stopRecording()"
-  (touchstart)="startRecording()"
-  (touchend)="stopRecording()"
+<mat-card
+  class="flash-card"
+  [class.large]="size === 'large'"
+  [class.anim-exit-toss-left]="
+    animationState === 'exit' && exitDirection === 'toss-left'
+  "
+  [class.anim-exit-toss-right]="
+    animationState === 'exit' && exitDirection === 'toss-right'
+  "
+  [class.anim-exit-toss-up]="
+    animationState === 'exit' && exitDirection === 'toss-up'
+  "
+  [class.anim-enter]="animationState === 'enter'"
+  appearance="outlined"
+  (animationend)="onAnimationEnd($event)"
 >
-  @if (recording) { 🔴 Recording... } @else { 🎤 Hold to Speak }
-</button>
-
-@if (result) {
-<p>You said: {{ result }}</p>
-} @if (isCorrect) {
-<p class="correct">✅ Good job!</p>
-} @else if (result) {
-<p class="incorrect">❌ Try again</p>
-}
-
-<div class="controls">
-  <button (click)="previousCard()">Previous</button>
-
-  <button (click)="nextCard()">Next</button>
-</div>
+  <mat-card-content class="card-content">
+    @if (hideWord) {
+    <span class="word-hidden">?</span>
+    } @else {
+    <h1 class="word">{{ word?.word }}</h1>
+    }
+  </mat-card-content>
+</mat-card>
